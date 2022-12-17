@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CrearUsuarioFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textViewCrearUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#2874A6"
+                android:textStyle="bold"
+                android:text="CREAR USUARIO"/>
+
+            <EditText
+                android:id="@+id/registrarNombreApellido"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nombre y Apellido"/>
+
+            <EditText
+                android:id="@+id/registrarEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:hint="Correo"/>
+
+            <EditText
+                android:id="@+id/registrarContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Contraseña" />
+
+            <EditText
+                android:id="@+id/registrarCelular"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:inputType="phone"
+                android:hint="Celular"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Tipo De Usuario"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/RadioButtonAdministrador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Administrador  "/>
+
+            <RadioButton
+                android:id="@+id/RadioButtonUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Usuario  "/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/buttonRegistrarUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="Crear Usuario"/>
+        </LinearLayout>
+
+    </FrameLayout>

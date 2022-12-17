@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "100510442588",
+    "project_id": "computech-4f0f8",
+    "storage_bucket": "computech-4f0f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100510442588:android:0208982df64f004d6db299",
+        "android_client_info": {
+          "package_name": "com.example.computech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100510442588-sgcr6lmpc1iegls24kir1rf7fjv29vl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtBLSYzWks8V-9AwQ2lvFWeZYBZrelgGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100510442588-sgcr6lmpc1iegls24kir1rf7fjv29vl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
